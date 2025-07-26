@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "front": "custom_furnace:block/custom_furnace_front",
+    "side":  "custom_furnace:block/custom_furnace_side",
+    "top":   "custom_furnace:block/custom_furnace_top",
+    "bottom":"custom_furnace:block/custom_furnace_bottom"
+  }
+}

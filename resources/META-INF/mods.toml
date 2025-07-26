@@ -1,0 +1,36 @@
+# MOD のローダー情報
+modLoader="javafml"
+loaderVersion="[40,)"             # Forge 1.18.2 では 40 系が対象
+license="All rights reserved"     # ライセンス表記（例: "MIT" などに変更可）
+issueTrackerURL=""                # 不要なら空のままでOK
+showAsResourcePack=false
+
+# MOD の基本情報
+[[mods]]
+modId="custom_furnace"
+version="${mod_version}"      # build.gradle の version プロパティを自動反映
+displayName="Custom Furnace"
+description='''
+シンプルなカスタムかまどブロックを追加するMODです。
+テクスチャを差し替える第一ステップとして作成しました。
+'''
+authors="YourName"
+credits="Thanks to Forge community"
+logoFile=""
+displayURL=""
+updateJSONURL=""
+
+# MOD の依存関係設定
+[[dependencies.custom_furnace]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.custom_furnace]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
