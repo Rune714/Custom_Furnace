@@ -25,6 +25,7 @@
 ---
 
 ## 🗂 ファイル構成（lit 対応段階）
+```
 src/main/
 ├── java/com/example/customfurnace/
 │   ├── CustomFurnace.java                    # メインクラス
@@ -47,6 +48,7 @@ src/main/
         ├── custom_furnace_side.png           # 側面テクスチャ
         ├── custom_furnace_top.png            # 上面テクスチャ
         └── custom_furnace_bottom.png         # 下面テクスチャ
+```
 ---
 
 ## 📌 各ファイルの役割
