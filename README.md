@@ -27,27 +27,26 @@
 ## 🗂 ファイル構成（lit 対応段階）
 src/main/
 ├── java/com/example/customfurnace/
-│   ├── CustomFurnace.java
+│   ├── CustomFurnace.java                    # メインクラス
 │   ├── registry/
-│   │   └── ModBlocks.java
+│   │   └── ModBlocks.java                    # ブロック登録
 │   └── block/
-│       └── CustomFurnaceBlock.java
-└── resources/assets/custom\_furnace/
-├── blockstates/
-│   └── custom\_furnace.json
-├── models/
-│   ├── block/
-│   │   ├── custom\_furnace.json
-│   │   └── custom\_furnace\_front\_lit.json
-│   └── item/
-│       └── custom\_furnace.json
-└── textures/block/
-├── custom\_furnace\_front.png
-├── custom\_furnace\_front\_lit.png
-├── custom\_furnace\_side.png
-├── custom\_furnace\_top.png
-└── custom\_furnace\_bottom.png
-
+│       └── CustomFurnaceBlock.java           # カスタムかまどブロッククラス
+└── resources/assets/custom_furnace/
+    ├── blockstates/
+    │   └── custom_furnace.json               # ブロック状態定義
+    ├── models/
+    │   ├── block/
+    │   │   ├── custom_furnace.json           # ブロックモデル（通常状態）
+    │   │   └── custom_furnace_front_lit.json # ブロックモデル（点火状態）
+    │   └── item/
+    │       └── custom_furnace.json           # アイテムモデル
+    └── textures/block/
+        ├── custom_furnace_front.png          # 正面テクスチャ
+        ├── custom_furnace_front_lit.png      # 正面テクスチャ（点火時）
+        ├── custom_furnace_side.png           # 側面テクスチャ
+        ├── custom_furnace_top.png            # 上面テクスチャ
+        └── custom_furnace_bottom.png         # 下面テクスチャ
 ---
 
 ## 📌 各ファイルの役割
