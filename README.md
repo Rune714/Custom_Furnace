@@ -39,7 +39,7 @@ src/main/
     ├── models/
     │   ├── block/
     │   │   ├── custom_furnace.json           # ブロックモデル（通常状態）
-    │   │   └── custom_furnace_front_lit.json # ブロックモデル（点火状態）
+    │   │   └── custom_furnace_lit.json # ブロックモデル（点火状態）
     │   └── item/
     │       └── custom_furnace.json           # アイテムモデル
     └── textures/block/
