@@ -1,7 +1,7 @@
 # 🛠 Custom Furnace MOD
 
 **MOD ID**: `custom_furnace`  
-対応バージョン：Forge 1.18.2（または使用しているバージョン）
+対応バージョン：Forge 1.18.2
 
 ---
 
